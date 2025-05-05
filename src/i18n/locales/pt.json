@@ -1,0 +1,28 @@
+{
+  "general": {
+    "pageCheckoutTitle": "Confirmação de dados | Mercado Livre",
+    "pageSelectMl": "Seleção de país | Mercado Livre",
+    "title": "Estamos quase lá...",
+    "subtitle": "Atualize suas informações de contato",
+    "buttonNext": "Próximo",
+    "buttonBack": "Anterior",
+    "finalStepTitle": "Confirmação do pedido"
+  },
+  "form": {
+    "fullname": "Nome completo",
+    "country": "País",
+    "address": "Endereço",
+    "addressDetail": "Andar / Escritório / Apartamento",
+    "addressType": "Tipo de residência",
+    "region": "Estado",
+    "city": "Cidade",
+    "accept": "Aceito os",
+    "terms": "Termos e Condições",
+    "tipFullname": "Digite seu nome completo",
+    "tipCountry": "Selecione seu país",
+    "tipRegion": "Selecione sua região",
+    "tipCity": "Selecione sua cidade",
+    "tipAddress": "Digite seu endereço",
+    "tipAddressDetail": "Ex: 302"
+  }
+}
