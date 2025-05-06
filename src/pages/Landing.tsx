@@ -45,6 +45,7 @@ export default function Landing() {
                 <img
                   src={imageSrc}
                   alt={imageAlt}
+                  loading="lazy"
                   className="h-28 transition-transform duration-300 ease-in-out hover:scale-105"
                 />
               </div>
