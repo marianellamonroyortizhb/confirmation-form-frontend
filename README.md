@@ -2,7 +2,7 @@
 
 El equipo de Mercado Libre planteó como Challenge la creación de una pantalla previa a la confimación de pedido, en la cual el usuario puede observar sus datos en caso de tenerlos disponibles y actualizarlos.
 
-Como POC la propuesta planteada consiste en un formulario con las siguientes caractarísticas:
+Como POC la propuesta planteada consiste en un formulario con las siguientes características:
 
 ### Frontend
 
