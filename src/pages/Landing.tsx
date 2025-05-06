@@ -30,11 +30,10 @@ export default function Landing() {
   return (
     <div>
       <Header />
-      <div className="min-h-screen bg-white py-12 px-4">
-        <h1 className="font-proxima text-2xl font-bold text-ml-black text-center mb-10">
+      <div className="min-h-screen bg-white py-6 md:py-14 px-4">
+        <h1 className="font-proxima text-xl font-bold text-ml-black text-center mb-4 md:mb-10">
           Selecciona el portal de Mercado Libre
         </h1>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-1 max-w-5xl mx-auto">
           {countries.map(({ name, path, imageAlt, imageSrc }) => (
             <Link
