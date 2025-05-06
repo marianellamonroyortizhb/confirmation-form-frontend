@@ -14,7 +14,7 @@ export default function useCountriesData() {
 
   useEffect(() => {
     axios
-      .get<Country[]>('http://localhost:8000/api/meli-countries')
+      .get<Country[]>('https://confirmation-form-backend.onrender.com/api/meli-countries')
       .then((res) => {
         const allCountries = res.data.map((c) => ({
           code: c.code,

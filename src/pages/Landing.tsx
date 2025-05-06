@@ -7,19 +7,19 @@ const countries = [
     name: 'Argentina',
     path: '/ar/confirmacion?referrer=/previous-step&token=123',
     imageAlt: 'Bandera de Argentina',
-    imageSrc: '/src/assets/images/ar.png',
+    imageSrc: '../../public/assets/images/ar.png',
   },
   {
     name: 'Brasil',
     path: '/br/confirmacao?referrer=/previous-step&token=123',
     imageAlt: 'Bandeira do Brasil',
-    imageSrc: '/src/assets/images/br.png',
+    imageSrc: '../../public/assets/images/br.png',
   },
   {
     name: 'Colombia',
     path: '/co/confirmacion?referrer=/previous-step&token=123',
     imageAlt: 'Bandera de Colombia',
-    imageSrc: '/src/assets/images/co.png',
+    imageSrc: '../../public/assets/images/co.png',
   },
 ]
 

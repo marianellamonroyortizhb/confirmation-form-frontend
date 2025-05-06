@@ -64,7 +64,7 @@ const ConfirmationForm: React.FC<ConfirmationFormProps> = ({ lang }) => {
     setErrors({})
 
     axios
-      .post('http://localhost:8000/api/meli-users', {
+      .post('https://confirmation-form-backend.onrender.com/api/meli-countries/api/meli-users', {
         token,
         ...formData,
       })
@@ -110,7 +110,9 @@ const ConfirmationForm: React.FC<ConfirmationFormProps> = ({ lang }) => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:8000/api/meli-users', { params: { token } })
+      .get('https://confirmation-form-backend.onrender.com/api/meli-countries/api/meli-users', {
+        params: { token },
+      })
       .then((response) => {
         const userData = response.data
         setFormData({
