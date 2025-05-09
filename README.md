@@ -36,7 +36,7 @@ Los campos nuevos sugeridos fueron: Región, Ciudad, Piso / Oficina / Apartament
 
 ## 🌍 Internacionalización (i18n)
 
-Se implementó la traducción a portugués y español. Para mostrarla de forma dinámica, se creó una landing page inicial donde se puede seleccionar el país desde el cual accede el usuario. La librería `react-i18next` permite configurar los idiomas de acuerdo con los subdominios `/ar`, `/pt`, `/co`. En una implementación en producción, se podría ajustar de acuerdo con la URL oficial. No se requiere recarga para actualizar el idioma.
+Se implementó la traducción a portugués y español. Para mostrarla de forma dinámica, se creó una landing page inicial donde se puede seleccionar el país desde el cual accede el usuario. La librería `react-i18next` permite configurar los idiomas de acuerdo con los subdominios `/ar`, `/br`, `/co`. En una implementación en producción, se podría ajustar de acuerdo con la URL oficial. No se requiere recarga para actualizar el idioma.
 
 ## ⚠️ No Script
 
